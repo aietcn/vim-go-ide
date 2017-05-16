@@ -6,10 +6,20 @@ call pathogen#helptags()
 "------------------------------------------------------------------------------
 " Custom color scheme
 "------------------------------------------------------------------------------
+set background=dark
+
 try
-    colorscheme foursee
+    colorscheme PaperColor
+    let g:PaperColor_Theme_Options = {
+        \   'theme': {
+        \       'default': {
+        \           'transparent_background': 1
+        \       }
+        \   }
+        \}
 catch
 endtry
+
 
 "------------------------------------------------------------------------------
 " NERDTree
@@ -67,6 +77,11 @@ let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"------------------------------------------------------------------------------
+" airline
+"------------------------------------------------------------------------------
+let g:airline_theme='papercolor'
 
 "------------------------------------------------------------------------------
 " NeoComplete

@@ -40,3 +40,6 @@
 [submodule "bundle/pristine/vim-go"]
 	path = bundle/pristine/vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "bundle/pristine/vim-airline"]
+	path = bundle/pristine/vim-airline
+	url = https://github.com/vim-airline/vim-airline
