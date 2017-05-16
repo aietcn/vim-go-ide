@@ -5,6 +5,8 @@ INSTALL_PATH="$(cd $(dirname $0)/../ ; pwd -P )"
 cat > "$HOME/.vimrc.go" <<EOF
 set runtimepath^="$INSTALL_PATH"
 
+set t_Co=256
+
 source $INSTALL_PATH/vimrc/basic.vim
 source $INSTALL_PATH/vimrc/filetypes.vim
 source $INSTALL_PATH/vimrc/plugins.vim

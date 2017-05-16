@@ -16,6 +16,9 @@ Fork the repo, and then clone it to `~/.vim_go_runtime`. Once done, just run ins
 
 **REQUIREMENT:** vim-go-ide uses [pathogen](https://github.com/tpope/vim-pathogen) to manage plugins. You need to have pathogen installed on your machine (see https://github.com/farazdagi/vim-go-ide/issues/12).
 
+    mkdir -p ~/.vim/autoload ~/.vim/bundle
+    git clone https://github.com/tpope/vim-pathogen ~/.vim/
+
 ### 2. Run your newly installed Vim configuration:
 
 Remember that your system's Vim config files remain untouched? During installation `.vimrc.go` is created. Let's use it:
@@ -32,7 +35,7 @@ In order for the [amazing vim-go](https://github.com/fatih/vim-go) to be most us
 
 ### 4. End-result:
 
-![Screenshot](https://raw.githubusercontent.com/farazdagi/vim-go-ide/master/screenshot.png)
+![Screenshot](./screenshot.png)
 
 Yep, that's it! 
 

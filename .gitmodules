@@ -1,0 +1,42 @@
+[submodule "bundle/pristine/ctrlp.vim"]
+	path = bundle/pristine/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "bundle/pristine/ack.vim"]
+	path = bundle/pristine/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "bundle/pristine/auto-pairs"]
+	path = bundle/pristine/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "bundle/pristine/bufexplorer"]
+	path = bundle/pristine/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer
+[submodule "bundle/pristine/gitv"]
+	path = bundle/pristine/gitv
+	url = https://github.com/gregsexton/gitv
+[submodule "bundle/pristine/neocomplete.vim"]
+	path = bundle/pristine/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim
+[submodule "bundle/pristine/neosnippet.vim"]
+	path = bundle/pristine/neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim
+[submodule "bundle/pristine/nerdcommenter"]
+	path = bundle/pristine/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "bundle/pristine/nerdtree"]
+	path = bundle/pristine/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "bundle/pristine/syntastic"]
+	path = bundle/pristine/syntastic
+	url = https://github.com/vim-syntastic/syntastic
+[submodule "bundle/pristine/tagbar"]
+	path = bundle/pristine/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/pristine/vim-fugitive"]
+	path = bundle/pristine/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "bundle/pristine/vim-gitgutter"]
+	path = bundle/pristine/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/pristine/vim-go"]
+	path = bundle/pristine/vim-go
+	url = https://github.com/fatih/vim-go
