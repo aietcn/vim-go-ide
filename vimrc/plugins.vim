@@ -81,7 +81,8 @@ let g:syntastic_check_on_wq = 0
 "------------------------------------------------------------------------------
 " airline
 "------------------------------------------------------------------------------
-let g:airline_theme='papercolor'
+"let g:airline_theme='papercolor'
+
 
 "------------------------------------------------------------------------------
 " NeoComplete
@@ -147,6 +148,19 @@ let g:neocomplete#force_omni_input_patterns.go = '[^.[:digit:] *\t]\.'
 "let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
 "let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 
+
+"------------------------------------------------------------------------------
+" NeoSnippet
+"------------------------------------------------------------------------------
+let g:go_snippet_engine = "neosnippet"
+imap <C-k> <Plug>(neosnippet_expand_or_jump)
+imap <expr><TAB>
+ \ pumvisible() ? "\<C-n>" :
+ \ neosnippet#expandable_or_jumpable() ?
+ \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>""
+if has('conceal')
+    set conceallevel=2 concealcursor=niv
+endif
 
 "------------------------------------------------------------------------------
 " Vim-go

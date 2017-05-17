@@ -43,3 +43,6 @@
 [submodule "bundle/pristine/vim-airline"]
 	path = bundle/pristine/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "bundle/pristine/neosnippet-snippets"]
+	path = bundle/pristine/neosnippet-snippets
+	url = https://github.com/Shougo/neosnippet-snippets
